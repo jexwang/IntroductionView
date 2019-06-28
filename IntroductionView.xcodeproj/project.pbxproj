@@ -10,6 +10,7 @@
 		69E7734B22C5AC2300BCB7D6 /* IntroductionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E7734122C5AC2300BCB7D6 /* IntroductionView.framework */; };
 		69E7735022C5AC2300BCB7D6 /* IntroductionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E7734F22C5AC2300BCB7D6 /* IntroductionViewTests.swift */; };
 		69E7735222C5AC2300BCB7D6 /* IntroductionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E7734422C5AC2300BCB7D6 /* IntroductionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69E7735C22C5AC5800BCB7D6 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E7735B22C5AC5800BCB7D6 /* IntroductionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		69E7734A22C5AC2300BCB7D6 /* IntroductionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntroductionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E7734F22C5AC2300BCB7D6 /* IntroductionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewTests.swift; sourceTree = "<group>"; };
 		69E7735122C5AC2300BCB7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69E7735B22C5AC5800BCB7D6 /* IntroductionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				69E7734422C5AC2300BCB7D6 /* IntroductionView.h */,
+				69E7735B22C5AC5800BCB7D6 /* IntroductionView.swift */,
 				69E7734522C5AC2300BCB7D6 /* Info.plist */,
 			);
 			path = IntroductionView;
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					69E7734022C5AC2300BCB7D6 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					69E7734922C5AC2300BCB7D6 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E7735C22C5AC5800BCB7D6 /* IntroductionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		69E7735622C5AC2300BCB7D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -359,6 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jexwang.IntroductionView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,6 +374,7 @@
 		69E7735722C5AC2300BCB7D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -393,6 +401,7 @@
 		69E7735922C5AC2300BCB7D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJG9624G6B;
 				INFOPLIST_FILE = IntroductionViewTests/Info.plist;
@@ -411,6 +420,7 @@
 		69E7735A22C5AC2300BCB7D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJG9624G6B;
 				INFOPLIST_FILE = IntroductionViewTests/Info.plist;
