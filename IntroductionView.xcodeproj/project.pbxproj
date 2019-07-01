@@ -11,6 +11,7 @@
 		69E7735022C5AC2300BCB7D6 /* IntroductionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E7734F22C5AC2300BCB7D6 /* IntroductionViewTests.swift */; };
 		69E7735222C5AC2300BCB7D6 /* IntroductionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E7734422C5AC2300BCB7D6 /* IntroductionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69E7735C22C5AC5800BCB7D6 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E7735B22C5AC5800BCB7D6 /* IntroductionView.swift */; };
+		69E7737422C603BB00BCB7D6 /* TailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E7737322C603BB00BCB7D6 /* TailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		69E7734F22C5AC2300BCB7D6 /* IntroductionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewTests.swift; sourceTree = "<group>"; };
 		69E7735122C5AC2300BCB7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69E7735B22C5AC5800BCB7D6 /* IntroductionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		69E7737322C603BB00BCB7D6 /* TailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				69E7734422C5AC2300BCB7D6 /* IntroductionView.h */,
 				69E7735B22C5AC5800BCB7D6 /* IntroductionView.swift */,
+				69E7737322C603BB00BCB7D6 /* TailView.swift */,
 				69E7734522C5AC2300BCB7D6 /* Info.plist */,
 			);
 			path = IntroductionView;
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E7737422C603BB00BCB7D6 /* TailView.swift in Sources */,
 				69E7735C22C5AC5800BCB7D6 /* IntroductionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
